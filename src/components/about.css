@@ -1,0 +1,146 @@
+.pgTitle{
+    height: 6rem!important;
+}
+
+.about{
+    padding-top: 10px;
+}
+
+@media (min-width: 390px){
+    .pgTitle{
+        margin-top: -3rem;
+    }
+   .aboutCard{    
+        margin-top: .5rem;    
+        gap: 2rem!important;
+    }
+}
+
+@media (min-width: 385px){
+    .pgTitle{
+        margin-top: -4rem;
+    }
+    .about{
+        font-size: 26px!important;
+    }
+   .aboutCard{    
+        margin-top: 2rem;    
+        gap: 4rem!important;
+    }
+    .expCard{
+        margin-top: -1.5rem;
+    }
+}
+
+@media (min-width: 412px){
+    .pgTitle{
+        margin-top: -1rem!important;
+    }
+    .aboutCard{
+        margin-top: 4rem;
+        gap: 4rem!important;
+    }
+    .waI{
+        margin-top: -1.5rem;
+    }
+}
+
+@media (min-width: 712px){
+    .pgTitle{
+        margin-top: 8rem!important;
+    }
+    .aboutCard{
+        
+        gap: 4rem!important;
+    }
+}
+
+@media (min-width: 768px){
+    .pgTitle{
+        margin-top: 3rem!important;
+        width: 40vw;
+    }
+    .aboutCard{
+        grid-template-columns: repeat(1, 1fr)!important;
+        gap: 4rem;
+        margin-top: 5rem;
+    }
+}
+
+@media (min-width: 844px){
+    .about{
+        font-size: 20px!important;
+    }
+    .pgTitle{
+        margin-top: -4rem!important;
+        width: 40vw;
+    }
+    .aboutCard{
+        grid-template-columns: repeat(2, 1fr)!important;
+        gap: 4rem;
+        margin-top: .5rem;
+    }
+}
+
+@media (min-width: 915px){
+    .about{
+        font-size: 20px!important;
+    }
+    .pgTitle{
+        margin-top: -4rem!important;
+        width: 40vw;
+    }
+    .aboutCard{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4rem;
+    }
+}
+
+@media (min-width: 1024px){
+    .pgTitle{
+        margin-top: 5rem!important;
+    }
+    .about{
+        font-size: 32px!important;
+    }
+    .aboutCard{
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 5rem;
+    }
+}
+
+@media (min-width: 1138px){
+    .pgTitle{
+        margin-top: 5rem;
+    }
+    .about{
+        font-size: 32px!important;
+    }
+    .aboutCard{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1440px){
+    .pgTitle{
+        margin-top: 6rem!important;
+        font-size: 42px!important;
+    }
+    .about{
+        font-size: 42px!important;
+    }
+    .aboutCard{
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 5rem;
+    }
+}
+
+@media (min-width: 1460px){
+    .pgTitle{
+        margin-top: 8rem!important;
+    }
+    .aboutCard{
+        margin-top: 5rem;
+    }
+}
+

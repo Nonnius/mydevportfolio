@@ -1,0 +1,95 @@
+.intro{
+    margin-top: -10rem;
+}
+
+@media (min-width: 385px){
+    .name{
+        margin-top: 2rem;
+    }
+    .textArea{
+        margin-top: -2rem;
+    }
+    .selfImg{
+        margin-top: 4rem;
+        width: 15rem!important;
+    }
+}
+
+@media (min-width: 412px){
+    .name{
+        font-size: 14px!important;
+        margin-top: 2rem;
+    }
+    .openStat{
+        font-size: 10px;
+    }
+    .selfImg{
+        margin-top: 2rem;
+        width: 18rem!important;
+    }
+}
+
+@media (min-width: 712px){
+    .selfImg{
+        width: 22rem!important;
+        height: 22rem!important;
+    }
+}
+
+@media (min-width: 844px){
+    .layout{
+        margin-top: -10rem;
+    }
+    .selfImg{
+        margin-top: -2rem;
+        width: 17rem!important;
+        height: 17rem!important;
+    }
+}
+
+@media (min-width: 915px){
+    .layout{
+        margin-top: -10rem;
+    }
+    .selfImg{
+        margin-top: -2rem;
+        width: 18rem!important;
+        height: 18rem!important;
+    }
+}
+
+@media (min-width: 1024px){
+    .layout{
+        margin-top: 2rem;
+    }
+    .selfImg{
+        width: 25rem!important;
+        height: 25rem!important;
+    }
+}
+
+@media (min-width: 1138px){
+    .layout{
+        margin-top: -2rem;
+    }
+    .selfImg{
+        width: 25rem!important;
+        height: 25rem!important;
+    }
+}
+
+@media (min-width: 1440px){
+    .layout{
+        margin-top: 5rem;
+    }
+    .selfImg{
+        width: 25rem!important;
+        height: 25rem!important;
+    }
+}
+
+@media (min-width: 1460px){
+    .layout{
+        margin-top: 3rem;
+    }
+}
