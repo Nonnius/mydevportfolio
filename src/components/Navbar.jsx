@@ -56,7 +56,7 @@ const Navbar = () => {
                 {/*Mobile menu start*/}
                 <button className='menuBtn scroll-smooth text-lg transition cursor-pointer md:hidden z-50 fixed top-4 right-4'>
                     <HiMenuAlt3 onClick={()=> setShowMobileMenu(true)}
-                    className='menuBtn mt-[-.5rem] text-[#04ff00]'/>
+                    className='menuBtn mt-[-.5rem] text-[#04ff00] md:hidden'/>
                 </button>
 
                 {/*Menu pop-out is rendered outside the nav to avoid stacking-context issues*/}
