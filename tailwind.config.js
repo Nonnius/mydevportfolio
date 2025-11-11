@@ -10,6 +10,7 @@ export default {
         'lg': '1024px',
         'xl': '1280px',
         '2xl': '1536px',
+        's24': '820px',
         'landscape': { 'raw': '(orientation: landscape)' },
       },
       container: {

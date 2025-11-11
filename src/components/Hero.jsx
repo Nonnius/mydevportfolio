@@ -19,7 +19,7 @@ const Hero = () => {
 
         <div className="absolute inset-0 bg-[url('./assets/limebg.jpg')] bg-no-repeat bg-cover">
           {/* Two-column responsive layout: stack on small screens, row on md+ */}
-          <div className="layout relative z-10 max-w-6xl mx-auto flex flex-col sm:flex-col md:flex-row items-center justify-between gap-8 px-6 py-24">
+          <div className="layout relative z-10 max-w-6xl mx-auto flex flex-col sm:flex-col s24:flex-row md:flex-row items-center justify-between gap-8 px-6 py-24">
 
             {/* Text Column */}
             <div className='textArea flex-1 text-center sm:mt-20 sm:px-5 md:text-left'>
