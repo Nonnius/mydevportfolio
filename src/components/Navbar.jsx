@@ -54,7 +54,7 @@ const Navbar = () => {
                     }
                 </ul>
                 {/*Mobile menu start*/}
-                <button className=' scroll-smooth text-lg transition cursor-pointer md:hidden z-50 fixed top-4 right-4'>
+                <button className='menuBtn scroll-smooth text-lg transition cursor-pointer md:hidden z-50 fixed top-4 right-4'>
                     <HiMenuAlt3 onClick={()=> setShowMobileMenu(true)}
                     className='menuBtn mt-[-.5rem] text-[#04ff00]'/>
                 </button>
