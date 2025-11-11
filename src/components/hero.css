@@ -2,7 +2,7 @@
     margin-top: -10rem;
 }
 
-@media (min-width: 385px){
+@media (min-width: 380px) and (orientation: portrait){
     .name{
         margin-top: 2rem;
     }
@@ -15,7 +15,7 @@
     }
 }
 
-@media (min-width: 412px){
+@media (min-width: 412px) and (orientation: portrait){
     .name{
         font-size: 14px!important;
         margin-top: 2rem;
@@ -29,7 +29,7 @@
     }
 }
 
-@media (min-width: 712px){
+@media (min-width: 712px) and (orientation: portrait){
     .selfImg{
         width: 22rem!important;
         height: 22rem!important;
