@@ -39,6 +39,7 @@
 @media (min-width: 824px) and (orientation: landscape){
     .layout{
         margin-top: -10rem;
+        flex-direction: row;
     }
     .selfImg{
         margin-top: -2rem;
