@@ -70,7 +70,7 @@ const Portfolio = () => {
                 <p className='text-[#04ff00] text-sm mb-3'>
                 This FullStack ecommerce site demonstrates my coding skills that consist of an admin panel and payment system.
                 </p>
-                <a href=''>
+                <a href='https://reactfs-frontend.vercel.app'>
                   <button className='px-3 py-1 rounded bg-gradient-to-l from-black to-[#046502] text-[#04ff00] hover:opacity-90
                   border border-[#04ff00]'>
                   See Project
@@ -86,7 +86,7 @@ const Portfolio = () => {
 
           {/*Card #2*/}
           <div className='group mt-2 relative overflow-hidden cursor-pointer'>
-            <div className='portImg relative h-full w-full overflow-y-hidden rounded'>
+            <div className='portImg relative h-full w-full overflow-x-hidden overflow-y-hidden rounded'>
               <img
               className='dbImg h-full w-full object-cover transition-transform duration-300 ease-in-out group-hover:scale-105'
               src={analyticsDB}
@@ -105,7 +105,7 @@ const Portfolio = () => {
                 <p className='text-[#04ff00] text-sm mb-3'>
                   Here, I demonstrate me analytical skills with this financial statement metric dashboard. Only assets are viewable.
                 </p>
-                <a href=''>
+                <a href='https://analyticsdbdemo.vercel.app'>
                   <button className='px-3 py-1 rounded bg-gradient-to-l from-black to-[#046502] text-[#04ff00] hover:opacity-90
                   border border-[#04ff00]'>
                     See Project
@@ -121,7 +121,7 @@ const Portfolio = () => {
         </div> 
         {/*All Projects Button*/}
         <div className="flex justify-center mt-6">
-          <a href=''>
+          <a href='https://project-gallery-blush.vercel.app'>
             <button className="allBtn px-5 py-3 rounded bg-gradient-to-l from-black to-[#046502] 
             text-[#04ff00] hover:opacity-90 border border-[#04ff00] cursor-pointer">
               See all Projects

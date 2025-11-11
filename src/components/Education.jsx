@@ -64,7 +64,7 @@ const Education = () => {
                         <p className='text-[#04ff00] text-sm mb-3'>
                             Here, you can view all my educational accomplishments.
                         </p>
-                        <a href=''>
+                        <a href='https://reid-education.vercel.app'>
                             <button
                             className='px-3 py-1 rounded bg-gradient-to-l from-black to-[#046502] text-[#04ff00] hover:opacity-90
                             border border-[#04ff00]'>
@@ -100,7 +100,7 @@ const Education = () => {
                         <p className='text-[#04ff00] text-sm mb-3'>
                         View my Microsoft Training here.
                         </p>
-                        <a href=''>
+                        <a href='https://reid-ms-training.vercel.app'>
                             <button className='px-3 py-1 rounded bg-gradient-to-l from-black to-[#046502] text-[#04ff00] hover:opacity-90
                             border border-[#04ff00]'>
                             View Credentials
