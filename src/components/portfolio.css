@@ -47,7 +47,7 @@
    
 }
 
-@media (min-width: 844px){
+@media (min-width: 824px) and (orientation: landscape){
     .portTitle{
         font-size: 26px!important;
         margin-top: -4.5rem;

@@ -7,3 +7,13 @@
     }
 }
 
+@media (min-width: 824px) and (orientation: landscape){
+    .conTitle{
+        width: 40vw!important;
+        font-size: 26px!important;
+        margin-top: .5rem;
+    }
+    .formAll{
+        margin-top: 2rem;
+    }
+}

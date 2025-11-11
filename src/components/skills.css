@@ -41,7 +41,7 @@
     }
 }
 
-@media (min-width: 844px){
+@media (min-width: 824px) and (orientation: landscape){
     .skillsTitle{
         width: 40vw;
         margin-top: .5rem!important;

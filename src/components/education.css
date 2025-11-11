@@ -40,7 +40,7 @@
     }
 }
 
-@media (min-width: 844px){
+@media (min-width: 824px) and (orientation: landscape){
     .eduTitle{
         margin-top: -2rem;
     }

@@ -67,7 +67,7 @@
     }
 }
 
-@media (min-width: 844px){
+@media (min-width: 824px) and (orientation: landscape){
     .about{
         font-size: 20px!important;
     }

@@ -36,7 +36,7 @@
     }
 }
 
-@media (min-width: 844px){
+@media (min-width: 824px) and (orientation: landscape){
     .layout{
         margin-top: -10rem;
     }
