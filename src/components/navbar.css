@@ -5,9 +5,9 @@
     }
 }
 
-@media (min-width: 824px) and (orientation: landscape){
+@media (min-width: 820px) and (orientation: landscape){
     .menuBtn{
-        display: none;
+        display: none!important;
     }
 }
 
