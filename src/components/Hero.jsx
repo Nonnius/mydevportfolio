@@ -21,7 +21,7 @@ const Hero = () => {
   <div className="absolute inset-0 min-h-full bg-[url('./assets/limebg.jpg')] bg-no-repeat bg-cover" />
 
   {/* Grid Layout Directly in Section */}
-  <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto px-6 py-24">
+  <div className="layout relative z-10 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto px-6 py-24">
     {/* Text Column */}
     <div className="textArea text-center sm:mt-20 sm:px-5 md:text-left">
       <h3 className="name text-lg font-light capitalize tracking-wide text-[#04ff00]">

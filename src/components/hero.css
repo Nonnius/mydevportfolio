@@ -40,6 +40,7 @@
     .layout{
         margin-top: -10rem;
         flex-direction: row;
+        grid-template-columns: repeat(2, 1fr);
     }
     .selfImg{
         margin-top: -2rem;
