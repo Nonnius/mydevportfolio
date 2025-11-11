@@ -44,8 +44,8 @@ const Hero = () => {
       </div>
     </div>
 
-    {/* Image Column */}
-    <div className="flex justify-center sm:mt-[12rem] lg:mt-[5rem] md:justify-end">
+  {/* Image Column */}
+  <div className="flex justify-center sm:mt-[12rem] md:mt-0 lg:mt-[5rem] md:justify-end">
       <img
         src={selfiebw}
         alt="O'marr Reid"
