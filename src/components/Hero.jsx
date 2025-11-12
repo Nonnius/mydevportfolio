@@ -13,7 +13,7 @@ import Contact from './Contact'
 const Hero = () => {
   return (
     <>
-      <section id='home' className='wholePg relative min-h-[100vh] flex items-center justify-center pt-16 pb-20
+      <section id='home' className='wholePg relative min-h-[115vh] flex items-center justify-center pt-16 pb-20
       border-b-[4px] border-transparent bg-gradient-to-r from-black via-[#04ff00] to-black'>
 
 
