@@ -1,5 +1,5 @@
-@media (min-width: 800px) {
+@media (min-width: 900px) and (orientation: landscape) {
   .s24Ultra2 {
-    min-height: 115vh!important;
+    min-height: 120vh!important;
   }
 }
