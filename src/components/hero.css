@@ -1,5 +1,8 @@
-@media (min-width: 900px) and (orientation: landscape) {
-  .s24Ultra2 {
-    min-height: 120vh!important;
-  }
+
+
+@media (min-width: 824px) and (orientation: landscape){
+    .wholePage{
+        min-height: 115vh;
+    }
+
 }
