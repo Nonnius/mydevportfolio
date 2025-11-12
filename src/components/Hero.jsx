@@ -19,10 +19,10 @@ const Hero = () => {
 
         <div className="absolute inset-0 bg-[url('./assets/limebg.jpg')] bg-no-repeat bg-cover">
           {/* Two-column responsive layout: stack on small screens, row on md+ */}
-          <div className="layout mt-[-10rem] relative z-10 max-w-6xl mx-auto flex flex-col s24Ultra2:flex-row md:flex-row items-center justify-between gap-8 px-6 py-24">
+          <div className="layout mt-[-10rem] relative z-10 max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8 px-6 py-24">
 
   {/* Text Column */}
-  <div className="textArea flex-1 flex flex-col items-center md:items-start text-center md:text-left sm:mt-20 sm:px-5">
+  <div className="textArea flex-1 flex flex-col s24Ultra2:flex-row items-center md:items-start text-center md:text-left sm:mt-20 sm:px-5">
     <h3 className="name text-lg font-light capitalize tracking-wide text-[#04ff00]">
       I'm O'marr Reid
     </h3>
