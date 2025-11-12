@@ -27,7 +27,7 @@ const Hero = () => {
 </div>
 
           {/* Text Column */}
-            <div className='textArea flex-1 flex flex-col mt-[14rem] items-start
+            <div className='textArea flex-1 flex flex-col mt-[14rem] s24Ultra1:mt-[10rem] items-start
             s24Ultra1:items-center text-center md:text-left sm:mt-20 sm:px-5'>
               <h3 className="name text-lg font-light capitalize tracking-wide text-[#04ff00]">
                 I'm O'marr Reid
@@ -37,7 +37,7 @@ const Hero = () => {
               I design and develop awesome, functional responsive websites and applications using the latest tech. I can help bring ideas to life.
               </p>
 
-              <div className="mt-6 flex flex-wrap justify-start gap-4 text-sm font-medium">
+              <div className="mt-6 flex flex-wrap justify-start gap-4 text-sm font-medium s24Ultra1:justify-center">
                 <span className="px-4 py-2 bg-gradient-to-l from-black to-[#046502] hover:opacity-90 text-[#04ff00] rounded border border-[#04ff00]">
                   Web Design
                 </span>
@@ -55,7 +55,7 @@ const Hero = () => {
               <img
                 src={selfiebw}
                 alt="O'marr Reid"
-                className="selfImg w-[22rem] mt-[-4rem]
+                className="selfImg w-[22rem] mt-[-4rem] s24Ultra1:mt-[4rem]
                  rounded-full object-cover border-2 border-[#04ff00] shadow-xl"
               />
             </div>
