@@ -13,7 +13,7 @@ import Contact from './Contact'
 const Hero = () => {
   return (
     <>
-      <section id='home' className='wholePg relative min-h-[100vh] s24Ultra2-height flex items-center justify-center pt-16 pb-20
+      <section id='home' className='wholePg relative min-h-[100vh] s24Ultra2 flex items-center justify-center pt-16 pb-20
       border-b-[4px] border-transparent bg-gradient-to-r from-black via-[#04ff00] to-black'>
 
 
@@ -21,6 +21,10 @@ const Hero = () => {
           {/* Two-column responsive layout: stack on small screens, row on md+ */}
           <div className="layout mt-[-10rem] relative z-10 max-w-6xl mx-auto flex s24Ultra1:flex-col s24Ultra2:flex-row 
           items-center justify-between gap-8 px-6 py-24">
+
+            <div className="fixed top-0 left-0 w-full text-center text-white font-bold z-50 bg-red-500 s24Ultra1:bg-yellow-500 s24Ultra2:bg-green-500">
+  Breakpoint active: default → s24Ultra1 → s24Ultra2
+</div>
 
           {/* Text Column */}
             <div className='textArea flex-1 flex flex-col items-center :items-start text-center md:text-left sm:mt-20 sm:px-5'>
