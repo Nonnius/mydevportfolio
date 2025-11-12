@@ -27,16 +27,17 @@ const Hero = () => {
 </div>
 
           {/* Text Column */}
-            <div className='textArea flex-1 flex flex-col items-center :items-start text-center md:text-left sm:mt-20 sm:px-5'>
+            <div className='textArea flex-1 flex flex-col mt-[14rem] items-start
+            s24Ultra1:items-center text-center md:text-left sm:mt-20 sm:px-5'>
               <h3 className="name text-lg font-light capitalize tracking-wide text-[#04ff00]">
                 I'm O'marr Reid
               </h3>
               <AnimatedTitle />
-              <p className="openStat mt-4 text-[#04ff00] max-w-xl mx-auto md:mx-0">
-                I design and develop awesome, functional responsive websites and applications using the latest tech. I can help bring ideas to life.
+              <p className="openStat mt-1 text-[#04ff00] max-w-xl mx-auto md:mx-0">
+              I design and develop awesome, functional responsive websites and applications using the latest tech. I can help bring ideas to life.
               </p>
 
-              <div className="mt-6 flex flex-wrap justify-center md:justify-start gap-4 text-sm font-medium">
+              <div className="mt-6 flex flex-wrap justify-start gap-4 text-sm font-medium">
                 <span className="px-4 py-2 bg-gradient-to-l from-black to-[#046502] hover:opacity-90 text-[#04ff00] rounded border border-[#04ff00]">
                   Web Design
                 </span>
@@ -54,7 +55,8 @@ const Hero = () => {
               <img
                 src={selfiebw}
                 alt="O'marr Reid"
-                className="selfImg sm:w-48 sm:h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 rounded-full object-cover border-2 border-[#04ff00] shadow-xl"
+                className="selfImg w-[22rem] mt-[-4rem]
+                 rounded-full object-cover border-2 border-[#04ff00] shadow-xl"
               />
             </div>
           </div>
