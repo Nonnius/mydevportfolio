@@ -10,7 +10,8 @@ export default {
         'lg': '1024px',
         'xl': '1280px',
         '2xl': '1536px',
-        's24': '820px',
+        's24Ultra1': {'raw': '(min-width: 412px)'},
+        's24Ultra2': {'raw': '(min-height: 915px)'},
         'landscape': { 'raw': '(orientation: landscape)' },
       },
       container: {
