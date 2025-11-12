@@ -40,9 +40,9 @@ const AnimatedTitle = () => {
 
 
   return (
-    <div className='text-left md:text-start'>
-        <h1 className='text-3xl md:text-5xl font-bold text-[#ffc400] mb-6'>
-            <span className='text-outline pb-1 sm:text-3xl lg:text-[46px]'>{currentText}</span>
+    <div className='text-center md:text-start'>
+        <h1 className='text-3xl md:text-5xl font-bold text-[#ffc400] mb-4'>
+            <span className='text-outline sm:text-3xl lg:text-[46px]'>{currentText}</span>
             <span className='inline-block h-7 md:h-14 w-0.5 bg-amber-500 ml-1 animate-pulse'></span>
         </h1>
     </div>

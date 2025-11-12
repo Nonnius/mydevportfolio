@@ -56,7 +56,7 @@ const Navbar = () => {
                 {/*Mobile menu start*/}
                 <button className='menuBtn scroll-smooth text-lg transition cursor-pointer md:hidden z-50 fixed top-4 right-4'>
                     <HiMenuAlt3 onClick={()=> setShowMobileMenu(true)}
-                    className='menuBtn mt-[-.5rem] text-[#04ff00] md:hidden'/>
+                    className='menuBtn mt-[-.5rem] text-[#04ff00] sm:hidden'/>
                 </button>
 
                 {/*Menu pop-out is rendered outside the nav to avoid stacking-context issues*/}
@@ -66,13 +66,13 @@ const Navbar = () => {
 
         {/*Menu pop-out rendered outside the nav so it sits above background images/filters*/}
         {showMobileMenu && (
-        <div className='fixed inset-0 z-[100] bg-white/10 backdrop-blur-md bg-opacity-90 flex flex-col items-center 
+        <div className='fixed sm:hidden inset-0 z-[100] bg-white/10 backdrop-blur-md bg-opacity-90 flex flex-col items-center 
         p-6 transition-all duration-300 md:hidden'>
             <MdClose onClick={() => setShowMobileMenu(false)}                    
             className='text-[#04ff00] text-3xl ml-[20rem] cursor-pointer'
             />
             {/* Add your menu items here */}
-            <nav className='mt-10 text-[#04ff00] space-y-4 text-center'>
+            <nav className='mt-10 text-[#04ff00] space-y-4 text-[24px] text-center'>
                 <a href="#home" className="block hover:bg-white/20 hover:px-5 rounded hover:border hover:border-[#04ff00]">Home</a>
                 <a href="#about" className="block hover:bg-white/20 hover:px-5 rounded hover:border hover:border-[#04ff00]">About</a>
                 <a href="#skills" className="block hover:bg-white/20 hover:px-5 rounded hover:border hover:border-[#04ff00]">Skills</a>                
