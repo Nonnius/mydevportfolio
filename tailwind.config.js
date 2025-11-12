@@ -7,7 +7,7 @@ export default {
         'lg': '1024px',
         'xl': '1280px',
         '2xl': '1536px',
-        's24Ultra1': {raw: '(min-width: 412px) and (orientation: portrait)'},
+        's24Ultra1': {raw: '(min-width: 375px) and (orientation: portrait)'},
         's24Ultra2': {raw: '(min-height: 915px) and (orientation: landscape)'},
         'landscape': {raw: '(orientation: landscape)' },
       },
