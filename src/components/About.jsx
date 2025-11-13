@@ -8,7 +8,7 @@ const About = () => {
        {/*Page Title section*/}
        <div className="pgTitle text-center s24Ultra1:mt-[3rem] bg-gradient-to-l from-black to-[#046502]
         rounded-[70%/40%_40%_30%_30%] backdrop-blur-lg max-w-[80vw] mx-auto lg:max-w-[30vw]
-        border-4 border-[#04ff00] p-1 relative overflow-y-scroll">
+        border-4 border-[#04ff00] p-1 relative overflow-y-hidden">
     
             <h1 className="about text-[#04ff00] font-semibold text-[24px] mb-2">
                 About Me
@@ -19,9 +19,9 @@ const About = () => {
         </div>
 
         <div className="aboutCard mt-[3rem]
-        grid grid-cols-1 
-        s24Ultra2:grid-cols-2 
-        gap-6 min-h-[65px] mx-auto max-w-6xl p-6 rounded-lg">
+        grid grid-cols-2 
+        s24Ultra1:grid-cols-1
+        gap-6 min-h-[65px] mx-auto max-w-6xl p-6 rounded-lg overflow-y-scroll">
             <div className="waI w-full bg-white/15 rounded border-4 border-[#04ff00] backdrop-blur-md">
                 <p className="text-[#04ff00] text-lg font-semibold py-2 px-4">Who am I</p>
                 <p className="text-[#04ff00]/80 mt-2 px-4">
