@@ -25,10 +25,10 @@ const About = () => {
         grid grid-cols-2 
         s24Ultra1:grid-cols-1
         s24Ultra1:mt-[4rem]
-        s21Ultra2:mt-[-.8rem]
+        mt-[-.8rem]
         gap-6 min-h-[65px] mx-auto max-w-6xl p-6 rounded-lg">
             <div className="waI w-full bg-white/15 rounded border-4 border-[#04ff00] backdrop-blur-md">
-                <p className="text-[#04ff00] text-lg font-semibold py-2 px-4">Who am I</p>
+                <p className="text-[#bce5bb] text-lg font-semibold py-2 px-4">Who am I</p>
                 <p className="text-[#04ff00]/80 mt-2 px-4">
                 I'm a developer passionate about building responsive, functional, and visually striking web experiences.
                 </p>
