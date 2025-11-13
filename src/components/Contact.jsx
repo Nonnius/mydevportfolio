@@ -28,21 +28,25 @@ const Contact = () => {
     <div className="min-h-screen bg-[url('./assets/limebg.jpg')] bg-no-repeat bg-cover bg-center overflow-y-auto 
     flex flex-col items-center justify-start px-4 py-6 sm:px-6 md:px-8">
       <div className="absolute top-0 left-0 w-full h-[8px] border-6 bg-gradient-to-r from-black via-[#04ff00] to-black z-10"></div>
-
-
-  {/* Header Section */}
-  <div className='conTitle w-full max-w-xl text-center bg-gradient-to-l from-black to-[#046502] rounded-[70%/40%_40%_30%_30%] backdrop-blur-lg p-4 mb-6'>
-    <h1 className='text-[#04ff00] font-semibold text-2xl sm:text-3xl mt-4'>Get In Touch</h1>
-    <p className='text-[#04ff00] text-base sm:text-lg mt-2  sm:block'>
-      Let's make your idea reality or set up an interview!
-    </p>
-  </div>
+  
+  {/*Page Title section*/}
+       <div className="pgTitle text-center bg-gradient-to-l from-black to-[#046502]
+        rounded-[70%/40%_40%_30%_30%] backdrop-blur-lg max-w-[80vw] mx-auto lg:max-w-[30vw]
+        border-4 border-[#04ff00] p-1 relative overflow-hidden mt-[5rem]">
+    
+            <h1 className="about text-[#04ff00] font-semibold text-4xl mb-2">
+                Get in touch!
+            </h1>
+            <p className="text-[#04ff00] font-normal mt-[-1rem] text-sm">
+                Let's make your idea reality or set up an interview!
+            </p>
+        </div>
 
   {/* Contact Form */}
   <form
     ref={form}
     onSubmit={sendEmail}
-    className='formAll w-full max-w-xl bg-white/15 bg-opacity-80 border border-[#04ff00] backdrop-blur-md rounded-lg shadow-lg p-4 sm:p-6 space-y-4'
+    className='formAll w-full max-w-xl bg-white/15 bg-opacity-80 border-4 border-[#04ff00] backdrop-blur-md rounded-lg shadow-lg p-4 sm:p-6 space-y-4'
   >
     <div className="flex flex-col">
       <label className="text-sm font-semibold text-[#04ff00]">Name</label>

@@ -29,12 +29,15 @@ const Hero = () => {
           {/* Text Column */}
             <div className='textArea flex-1 flex flex-col mt-[14rem] s24Ultra1:mt-[10rem] items-start
             s24Ultra1:items-center text-center md:text-left sm:mt-20 sm:px-5'>
-              <h3 className="name text-lg font-light capitalize tracking-wide text-[#04ff00]">
+              <h3 className="name text-lg font-light capitalize tracking-wide text-[#04ff00]
+              s24Ultra1:text-[22px]">
                 I'm O'marr Reid
               </h3>
               <AnimatedTitle />
-              <p className="openStat mt-1 text-[#04ff00] max-w-xl mx-auto md:mx-0">
-              I design and develop awesome, functional responsive websites and applications using the latest tech. I can help bring ideas to life.
+              <p className="openStat mt-1 indent-[1rem] text-[#04ff00] max-w-xl mx-auto md:mx-0
+              text-[16px]">
+              
+              I design and develop awesome, functional responsive websites and applications using the latest tech. I can help you bring your ideas to life.
               </p>
 
               <div className="mt-6 flex flex-wrap justify-start gap-4 text-sm font-medium s24Ultra1:justify-center">

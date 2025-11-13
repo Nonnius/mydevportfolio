@@ -28,13 +28,17 @@ const Education = () => {
 
   return (
     <div className="absolute inset-0 bg-[url('./assets/limebg.jpg')] h-screen bg-no-repeat bg-cover">
-        <div className='eduTitle text-center bg-gradient-to-l from-black to-[#046502] 
-        rounded-[70%/40%_40%_30%_30%] backdrop-blur-lg w-full mx-auto'>
-            <h1 className='py-2 text-[#04ff00] font-semibold mt-[4rem]'>
-            Education Credentials
+
+        {/*Page Title section*/}
+       <div className="pgTitle text-center bg-gradient-to-l from-black to-[#046502]
+        rounded-[70%/40%_40%_30%_30%] backdrop-blur-lg max-w-[80vw] mx-auto lg:max-w-[30vw]
+        border-4 border-[#04ff00] p-1 relative overflow-hidden mt-[5rem]">
+    
+            <h1 className="about text-[#04ff00] font-semibold text-4xl mb-2">
+                Education Credentials
             </h1>
-            <p className='desc text-[#04ff00] font-normal mt-[-.5rem]'>
-            View my degree and certifications.
+            <p className="text-[#04ff00] font-normal mt-[-.5rem] text-sm">
+                View my degree and certifications.
             </p>
         </div>
 

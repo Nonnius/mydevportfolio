@@ -34,13 +34,17 @@ const Portfolio = () => {
 
   return (
     <div className="absolute inset-0 bg-[url('./assets/limebg.jpg')] h-screen bg-no-repeat bg-cover">
-      <div className='portTitle text-center bg-gradient-to-l from-black to-[#046502]
-        rounded-[70%/40%_40%_30%_30%] backdrop-blur-lg mx-auto'>
-            <h1 className='port py-2 text-[#04ff00] font-semibold mt-[5rem]'>
+      
+      {/*Page Title section*/}
+       <div className="pgTitle text-center bg-gradient-to-l from-black to-[#046502]
+        rounded-[70%/40%_40%_30%_30%] backdrop-blur-lg max-w-[80vw] mx-auto lg:max-w-[30vw]
+        border-4 border-[#04ff00] p-1 relative overflow-hidden mt-[5rem]">
+    
+            <h1 className="about text-[#04ff00] font-semibold text-4xl mb-2">
                 My Portfolio
             </h1>
-            <p className='titleDes text-[#04ff00] font-normal'>
-                View my collection of my mot recent work and projects.
+            <p className="text-[#04ff00] font-normal mt-[-1rem] text-sm">
+                View my collection of my most recent work and projects.
             </p>
         </div>
 

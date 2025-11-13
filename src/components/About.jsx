@@ -4,17 +4,22 @@ import './about.css'
 const About = () => {
   return (
     <div className="absolute inset-0 bg-[url('./assets/limebg.jpg')] h-screen bg-no-repeat bg-cover">
-        <div className='pgTitle text-center bg-gradient-to-l from-black to-[#046502] 
-        rounded-[70%/40%_40%_30%_30%] backdrop-blur-lg max-w-[80vw] mx-auto lg:max-w-[30vw]'>
-            <h1 className='about text-[#04ff00] font-semibold text-4xl mt-[5rem]'>
+
+       {/*Page Title section*/}
+       <div className="pgTitle text-center bg-gradient-to-l from-black to-[#046502]
+        rounded-[70%/40%_40%_30%_30%] backdrop-blur-lg max-w-[80vw] mx-auto lg:max-w-[30vw]
+        border-4 border-[#04ff00] p-1 relative overflow-hidden mt-[5rem]">
+    
+            <h1 className="about text-[#04ff00] font-semibold text-4xl mb-2">
                 About Me
             </h1>
-            <p className='text-[#04ff00] font-normal text-sm'>
+            <p className="text-[#04ff00] font-normal mt-[-1rem] text-sm">
                 Get to know more about my background and experience
             </p>
         </div>
+
         <div className="aboutCard grid grid-cols-1 md:grid-cols-2 gap-4 min-h-[65px] mx-auto max-w-6xl p-6 rounded-lg">
-            <div className="waI w-full bg-white/15 rounded border border-[#04ff00] backdrop-blur-md">
+            <div className="waI w-full bg-white/15 rounded border-4 border-[#04ff00] backdrop-blur-md">
                 <p className="text-[#04ff00] text-lg font-semibold py-2 px-4">Who am I</p>
                 <p className="text-[#04ff00]/80 mt-2 px-4">
                 I'm a developer passionate about building responsive, functional, and visually striking web experiences.
@@ -43,7 +48,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div className="expCard w-full bg-white/15 rounded border border-[#04ff00] backdrop-blur-md py-2 px-4">
+            <div className="expCard w-full bg-white/15 rounded border-4 border-[#04ff00] backdrop-blur-md py-2 px-4">
                 <p className="text-[#04ff00] text-lg font-semibold">What I do</p>
                 <p className="text-[#04ff00]/80 mt-2">
                 I specialize in frontend development, UI/UX design, and fullstack integration — blending code with creativity.
