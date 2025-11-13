@@ -7,11 +7,3 @@
 }
 
 
-@media (min-width: 1024px){
-    .skillsTitle{
-        margin-top: 4rem!important;
-    }
-    .skillsCard{
-        margin-top: 4rem;
-    }
-}

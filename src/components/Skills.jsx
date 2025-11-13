@@ -29,12 +29,12 @@ const Skills = () => {
         </div>
 
       {/*container #1*/}
-      <div className="skillsCard overflow-y-scroll
+      <div className="skillsCard 
       s24Ultra1:mt-[4rem]
       mt-[-.8rem]
       grid grid-cols-2      
       s24Ultra1:grid-cols-1
-      gap-4 min-h-[60px] mx-auto max-w-6xl p-6 rounded-lg">
+      gap-4 min-h-[60px] w-[65rem] mx-auto p-6 rounded-lg">
         <div className="w-full bg-white/15 rounded border-4 border-[#04ff00] backdrop-blur-md py-2 px-4 text-[#04ff00]
         text-center">
           <p className='text-[#04ff00] mb-2 underline'>
@@ -113,7 +113,7 @@ const Skills = () => {
       <div className="toolCard
       s24Ultra1:mt-[-1.8rem]
       mt-[-2rem]
-      w-full grid grid-cols-1 gap-4 min-h-[65px] p-6 max-w-6xl mx-auto rounded-lg">       
+      grid grid-cols-1 gap-4 min-h-[65px] p-6 w-[65rem] mx-auto rounded-lg">       
         <div className="bg-white/15 rounded border-4 border-[#04ff00] backdrop-blur-md py-2 text-[#04ff00]
         text-center">
           <p className='text-[#04ff00] mb-2 underline'>
