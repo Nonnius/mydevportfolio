@@ -6,9 +6,12 @@ const About = () => {
     <div className="absolute inset-0 bg-[url('./assets/limebg.jpg')] h-screen bg-no-repeat bg-cover">
 
        {/*Page Title section*/}
-       <div className="pgTitle text-center s24Ultra1:mt-[3rem] bg-gradient-to-l from-black to-[#046502]
-        rounded-[70%/40%_40%_30%_30%] backdrop-blur-lg max-w-[80vw] mx-auto lg:max-w-[30vw]
-        border-4 border-[#04ff00] p-1 relative overflow-y-hidden">
+       <div className="pgTitle text-center 
+       mt-[1rem]
+       s21Ultra1:mt-[3rem] 
+       bg-gradient-to-l from-black to-[#046502]
+       rounded-[70%/40%_40%_30%_30%] backdrop-blur-lg max-w-[80vw] mx-auto lg:max-w-[30vw]
+       border-4 border-[#04ff00] p-1 relative overflow-y-hidden">
     
             <h1 className="about text-[#04ff00] font-semibold text-[24px] mb-2">
                 About Me
@@ -18,9 +21,10 @@ const About = () => {
             </p>
         </div>
 
-        <div className="aboutCard mt-[3rem]
+        <div className="aboutCard mt-[2rem]
         grid grid-cols-2 
         s24Ultra1:grid-cols-1
+        s24Ultra1:mt-[4rem]
         gap-6 min-h-[65px] mx-auto max-w-6xl p-6 rounded-lg overflow-y-scroll">
             <div className="waI w-full bg-white/15 rounded border-4 border-[#04ff00] backdrop-blur-md">
                 <p className="text-[#04ff00] text-lg font-semibold py-2 px-4">Who am I</p>
