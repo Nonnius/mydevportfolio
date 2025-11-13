@@ -111,13 +111,13 @@ const Skills = () => {
         </div>
         <div className="toolCard
         s24Ultra1:mt-[-1.8rem]
-        mt-[-2rem] grid grid-cols-1 justify-center gap-4 min-h-[65px] p-6 max-w-[68rem] mx-auto rounded-lg">               
-        <div className="bg-white/15 rounded border-4 border-[#04ff00] backdrop-blur-md py-1 text-[#04ff00]
+        mt-[-2rem] flex justify-center gap-4 min-h-[65px] max-auto py-6 rounded-lg">               
+        <div className="w-full max-w-[40rem] bg-white/15 rounded border-4 border-[#04ff00] backdrop-blur-md py-1 text-[#04ff00]
           text-center">
             <p className='text-[#04ff00] mb-2 underline'>
               Tools
             </p>
-            <div className='flex flex-wrap gap-2 text-[16px] sm:items-center justify-center'>
+            <div className='flex flex-wrap gap-2 text-[16px] mx-auto'>
               <div className="flex items-center gap-1 px-2 py-1 rounded text-[#04ff00]">
                 <FaGitAlt className='text-orange-500 text-[24px]' />
                 <span className='text-[14px]'>Git</span>            
