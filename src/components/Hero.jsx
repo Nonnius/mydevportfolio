@@ -67,10 +67,8 @@ const Hero = () => {
       </section>  
 
 
-      <section id='about' className="relative flex flex-col items-center justify-center
-      min-h-[120vh] px-6 pt-24 pb-32 border-t-4 border-[#04ff00]    
-      bg-gradient-to-r from-black via-[#04ff00] to-black overflow-hidden">
-            
+      <section id='about' className='relative min-h-screen flex items-center justify-center pt-16 pb-20
+            '>
         <About/>
       </section>
       <section id='skills' className="relative border-10 border-t-[8px] border-transparent bg-gradient-to-r 

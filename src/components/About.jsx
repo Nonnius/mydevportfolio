@@ -8,7 +8,7 @@ const About = () => {
        {/*Page Title section*/}
        <div className="pgTitle text-center bg-gradient-to-l from-black to-[#046502]
         rounded-[70%/40%_40%_30%_30%] backdrop-blur-lg max-w-[80vw] mx-auto lg:max-w-[30vw]
-        border-4 border-[#04ff00] p-1 relative overflow-hidden mt-[5rem]">
+        border-4 border-[#04ff00] p-1 relative overflow-hidden">
     
             <h1 className="about text-[#04ff00] font-semibold text-4xl mb-2">
                 About Me
