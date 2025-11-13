@@ -29,14 +29,12 @@ const Skills = () => {
         </div>
 
       {/*container #1*/}
-      <div className="skillsCard
+      <div className="skillsCard overflow-y-scroll
       s24Ultra1:mt-[4rem]
       mt-[-.8rem]
-      grid grid-cols-2
-      overflow-y-auto
-      s24Ultra1:overflow-y-hidden
+      grid grid-cols-2      
       s24Ultra1:grid-cols-1
-      gap-4 min-h-[65px] mx-auto max-w-6xl p-6 rounded-lg">
+      gap-4 min-h-[60px] mx-auto max-w-6xl p-6 rounded-lg">
         <div className="w-full bg-white/15 rounded border-4 border-[#04ff00] backdrop-blur-md py-2 px-4 text-[#04ff00]
         text-center">
           <p className='text-[#04ff00] mb-2 underline'>
