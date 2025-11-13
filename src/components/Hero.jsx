@@ -67,8 +67,7 @@ const Hero = () => {
       </section>  
 
 
-      <section id='about' className='relative min-h-screen flex items-center justify-center pt-16 pb-20
-            '>
+      <section id='about' className='relative min-h-screen flex items-center justify-center pt-16 pb-20'>            
         <About/>
       </section>
       <section id='skills' className="relative border-10 border-t-[8px] border-transparent bg-gradient-to-r 

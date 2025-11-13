@@ -8,7 +8,7 @@ const About = () => {
        {/*Page Title section*/}
        <div className="pgTitle text-center 
        mt-[1rem]
-       s21Ultra1:mt-[3rem] 
+       s21Ultra1:mt-[3rem]
        bg-gradient-to-l from-black to-[#046502]
        rounded-[70%/40%_40%_30%_30%] backdrop-blur-lg max-w-[80vw] mx-auto lg:max-w-[30vw]
        border-4 border-[#04ff00] p-1 relative overflow-y-hidden">
@@ -28,7 +28,7 @@ const About = () => {
         mt-[-.8rem]
         gap-6 min-h-[65px] mx-auto max-w-6xl p-6 rounded-lg">
             <div className="waI w-full bg-white/15 rounded border-4 border-[#04ff00] backdrop-blur-md">
-                <p className="text-[#bce5bb] text-lg font-semibold py-2 px-4">Who am I</p>
+                <p className="text-[#04ff00] text-lg font-semibold py-2 px-4">Who am I</p>
                 <p className="text-[#04ff00]/80 mt-2 px-4">
                 I'm a developer passionate about building responsive, functional, and visually striking web experiences.
                 </p>

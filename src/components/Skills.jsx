@@ -13,11 +13,14 @@ const Skills = () => {
     <div className="absolute inset-0 bg-[url('./assets/limebg.jpg')] h-screen bg-no-repeat bg-cover">
 
       {/*Page Title section*/}
-       <div className="pgTitle text-center bg-gradient-to-l from-black to-[#046502]
-        rounded-[70%/40%_40%_30%_30%] backdrop-blur-lg max-w-[80vw] mx-auto lg:max-w-[30vw]
-        border-4 border-[#04ff00] p-1 relative overflow-hidden mt-[5rem]">
+       <div className="pgTitle 
+       mt-[1rem]
+       s21Ultra1:mt-[3rem] 
+       text-center bg-gradient-to-l from-black to-[#046502]
+       rounded-[70%/40%_40%_30%_30%] backdrop-blur-lg max-w-[80vw] mx-auto lg:max-w-[30vw]
+       border-4 border-[#04ff00] p-1 relative overflow-hidden">
     
-            <h1 className="about text-[#04ff00] font-semibold text-4xl mb-2">
+            <h1 className="about text-[#04ff00] font-semibold text-[24px] mb-2">
                 Skills
             </h1>
             <p className="text-[#04ff00] font-normal mt-[-.5rem] text-sm">
@@ -26,7 +29,10 @@ const Skills = () => {
         </div>
 
       {/*container #1*/}
-      <div className="skillsCard grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-4 min-h-[65px] mx-auto max-w-6xl p-6 rounded-lg">
+      <div className="skillsCard
+      s24Ultra1:mt-[4rem]
+      mt-[-.8rem]
+      grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-4 min-h-[65px] mx-auto max-w-6xl p-6 rounded-lg">
         <div className="w-full bg-white/15 rounded border-4 border-[#04ff00] backdrop-blur-md py-2 px-4 text-[#04ff00]
         text-center">
           <p className='text-[#04ff00] mb-2 underline'>
@@ -57,7 +63,8 @@ const Skills = () => {
         </div> 
 
         {/*Containder #2*/}
-        <div className="box2 h-full w-full bg-white/15 text[16px] rounded border-4 border-[#04ff00] 
+        <div className="box2
+        h-full w-full bg-white/15 text[16px] rounded border-4 border-[#04ff00] 
         backdrop-blur-md py-2 px-4 text-center">
           <p className='text-[#04ff00] mb-2 underline'>
             Backend
@@ -101,7 +108,10 @@ const Skills = () => {
           </div>
         </div>       
       </div>
-      <div className="toolCard w-full grid grid-cols-1 gap-4 min-h-[65px] p-6 max-w-6xl mx-auto rounded-lg">       
+      <div className="toolCard
+      s24Ultra1:mt-[-1.8rem]
+      mt-[-2rem]
+      w-full grid grid-cols-1 gap-4 min-h-[65px] p-6 max-w-6xl mx-auto rounded-lg">       
         <div className="bg-white/15 rounded border-4 border-[#04ff00] backdrop-blur-md py-2 text-[#04ff00]
         text-center">
           <p className='text-[#04ff00] mb-2 underline'>
