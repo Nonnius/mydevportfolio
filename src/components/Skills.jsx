@@ -111,7 +111,7 @@ const Skills = () => {
         </div>
         <div className="toolCard
         s24Ultra1:mt-[-1.8rem]
-        mt-[-2rem] flex justify-center gap-4 min-h-[65px] max-auto py-6 rounded-lg">               
+        mt-[-2rem] flex justify-center gap-4 min-h-[65px] py-6 rounded-lg">               
         <div className="w-full max-w-[40rem] bg-white/15 rounded border-4 border-[#04ff00] backdrop-blur-md py-1 text-[#04ff00]
           text-center">
             <p className='text-[#04ff00] mb-2 underline'>
