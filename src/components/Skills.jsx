@@ -31,10 +31,10 @@ const Skills = () => {
       {/*container #1*/}
       <div className="skillsCard 
       s24Ultra1:mt-[4rem]
-      mt-[-.8rem]
+      mt-[1rem]
       grid grid-cols-2 
       s24Ultra1:grid-cols-1
-      gap-4 min-h-[60px] max-w-[65rem] mx-auto p-6 rounded-lg">
+      gap-4 max-h-[80vh] max-w-[65rem] mx-auto p-6 rounded-lg overflow-y-auto">
         <div className="w-full bg-white/15 rounded border-4 border-[#04ff00] backdrop-blur-md py-2 px-4 text-[#04ff00]
         text-center">
           <p className='text-[#04ff00] mb-2 underline'>
