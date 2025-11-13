@@ -41,13 +41,13 @@ const Hero = () => {
               </p>
 
               <div className="mt-6 flex flex-wrap justify-start gap-4 text-sm font-medium s24Ultra1:justify-center">
-                <span className="px-4 py-2 bg-gradient-to-l from-black to-[#046502] hover:opacity-90 text-[#04ff00] rounded border border-[#04ff00]">
+                <span className="px-4 py-2 bg-gradient-to-l from-black to-[#046502] hover:opacity-90 text-[#04ff00] rounded border-4 border-[#04ff00]">
                   Web Design
                 </span>
-                <span className="px-4 py-2 bg-gradient-to-l from-black to-[#046502] hover:opacity-90 text-[#04ff00] rounded border border-[#04ff00]">
+                <span className="px-4 py-2 bg-gradient-to-l from-black to-[#046502] hover:opacity-90 text-[#04ff00] rounded border-4 border-[#04ff00]">
                   Frontend Development
                 </span>
-                <span className="px-4 py-2 bg-gradient-to-l from-black to-[#046502] hover:opacity-90 text-[#04ff00] rounded border border-[#04ff00]">
+                <span className="px-4 py-2 bg-gradient-to-l from-black to-[#046502] hover:opacity-90 text-[#04ff00] rounded border-4 border-[#04ff00]">
                   UI/UX Design
                 </span>
               </div>
@@ -59,7 +59,7 @@ const Hero = () => {
                 src={selfiebw}
                 alt="O'marr Reid"
                 className="selfImg w-[22rem] mt-[-4rem] s24Ultra1:mt-[4rem]
-                 rounded-full object-cover border-2 border-[#04ff00] shadow-xl"
+                 rounded-full object-cover border-4 border-[#04ff00] shadow-xl"
               />
             </div>
           </div>
@@ -68,7 +68,7 @@ const Hero = () => {
 
 
       <section id='about' className='relative min-h-screen flex items-center justify-center pt-16 pb-20
-            border-t-[4px] border-transparent bg-gradient-to-r from-black via-[#04ff00] to-black'>
+            '>
         <About/>
       </section>
       <section id='skills' className="relative border-10 border-t-[8px] border-transparent bg-gradient-to-r 

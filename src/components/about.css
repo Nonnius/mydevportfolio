@@ -82,12 +82,12 @@
     }
 }
 
-@media (min-width: 915px){
+@media (min-width: 915px) and (orientation: landscape){
     .about{
         font-size: 20px!important;
     }
     .pgTitle{
-        margin-top: -4rem!important;
+        margin-top: .5rem!important;
         width: 40vw;
     }
     .aboutCard{
