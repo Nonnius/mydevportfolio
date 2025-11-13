@@ -61,6 +61,8 @@ Error generating stack: `+i.message+`
       s24Ultra1:mt-[4rem]\r
       mt-[-.8rem]\r
       grid grid-cols-2\r
+      overflow-y-auto\r
+      s24Ultra1:overflow-y-hidden\r
       s24Ultra1:grid-cols-1\r
       gap-4 min-h-[65px] mx-auto max-w-6xl p-6 rounded-lg`,children:[s.jsxs("div",{className:`w-full bg-white/15 rounded border-4 border-[#04ff00] backdrop-blur-md py-2 px-4 text-[#04ff00]\r
         text-center`,children:[s.jsx("p",{className:"text-[#04ff00] mb-2 underline",children:"Frontend"}),s.jsxs("div",{className:"flex flex-wrap gap-2 text-[16px] sm:items-center justify-center",children:[s.jsxs("div",{className:"flex items-center gap-1 px-2 py-1 rounded",children:[s.jsx(g1,{className:"text-orange-500 text-[18px]"}),s.jsx("span",{className:"text-[14px]",children:"HTML"})]}),s.jsxs("div",{className:"flex items-center gap-1 px-2 py-1 rounded",children:[s.jsx(m1,{className:"text-blue-500 text-[18px]"}),s.jsx("span",{className:"text-[14px]",children:"CSS"})]}),s.jsxs("div",{className:"flex items-center gap-1 px-2 py-1 rounded",children:[s.jsx(y1,{className:"text-yellow-400 text-[18px]"}),s.jsx("span",{className:"text-[14px]",children:"Javascript"})]}),s.jsxs("div",{className:"flex items-center gap-1 px-2 py-1 rounded",children:[s.jsx(x1,{className:"text-blue-400 text-[18px]"}),s.jsx("span",{className:"text-[14px]",children:"ReactJS"})]}),s.jsxs("div",{className:"flex items-center gap-1 px-2 py-1 rounded",children:[s.jsx(_1,{className:"text-cyan-400 text-[18px]"}),s.jsx("span",{className:"text-[14px]",children:"Tailwind"})]})]})]}),s.jsxs("div",{className:`box2\r
