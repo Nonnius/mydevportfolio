@@ -30,10 +30,12 @@ const Contact = () => {
       <div className="absolute top-0 left-0 w-full h-[8px] border-6 bg-gradient-to-r from-black via-[#04ff00] to-black z-10"></div>
   
   {/*Page Title section*/}
-       <div className="pgTitle text-center bg-gradient-to-l from-black to-[#046502]
-        rounded-[70%/40%_40%_30%_30%] backdrop-blur-lg max-w-[80vw] mx-auto lg:max-w-[30vw]
-        border-4 border-[#04ff00] p-1 relative overflow-hidden mt-[1rem] mb-[2rem]
-        s24Ultra1:mt-[3rem]">
+       <div className="pgTitle 
+       mt-[1rem]
+       s21Ultra1:mt-[3rem] 
+       text-center bg-gradient-to-l from-black to-[#046502]
+       rounded-[70%/40%_40%_30%_30%] backdrop-blur-lg max-w-[80vw] mx-auto lg:max-w-[30vw]
+       border-4 border-[#04ff00] p-1 relative overflow-hidden">
     
             <h1 className="about text-[#04ff00] font-semibold text-[24px] mb-3">
                 Get in touch!
