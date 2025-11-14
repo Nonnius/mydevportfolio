@@ -49,8 +49,7 @@ Error generating stack: `+i.message+`
         s24Ultra1:grid-cols-1\r
         s24Ultra1:mt-[6rem]\r
         s24Ultra1:gap-[6rem]\r
-        s24Ultra2:mt-[1rem]\r
-        !s24Ultra3:mt-[6rem]\r
+        s24Ultra2:mt-[1rem]        \r
         gap-6 min-h-[65px] mx-auto max-w-6xl p-6 rounded-lg`,children:[s.jsxs("div",{className:"waI w-full bg-white/15 rounded border-4 border-[#04ff00] backdrop-blur-md",children:[s.jsx("p",{className:"text-[#04ff00] text-lg font-semibold py-2 px-4",children:"Who am I"}),s.jsx("p",{className:"text-[#04ff00]/80 mt-2 px-4",children:"I'm a developer passionate about building responsive, functional, and visually striking web experiences."}),s.jsxs("div",{className:"grid grid-cols-2 mt-6 gap-y-4 text-[11px] px-4 text-[#04ff00] sm:text-center",children:[s.jsxs("div",{children:[s.jsx("p",{className:"font-normal text-[10px] leading-tight",children:"Name:"}),s.jsx("p",{className:"font-semibold leading-tight",children:"O’marr Reid"})]}),s.jsxs("div",{children:[s.jsx("p",{className:"font-normal text-[10px] leading-tight",children:"Email:"}),s.jsx("p",{className:"font-semibold leading-tight",children:"omarr.reid@outlook.com"})]}),s.jsxs("div",{children:[s.jsx("p",{className:"font-normal text-[10px] leading-tight",children:"Location:"}),s.jsx("p",{className:"font-semibold leading-tight",children:"North Carolina"})]}),s.jsxs("div",{className:"mb-4",children:[s.jsx("p",{className:"font-normal text-[10px] leading-tight",children:"Availability:"}),s.jsx("p",{className:"font-semibold leading-tight",children:"Full-time & Freelance"})]})]})]}),s.jsxs("div",{className:"expCard w-full bg-white/15 rounded border-4 border-[#04ff00] backdrop-blur-md py-2 px-4",children:[s.jsx("p",{className:"text-[#04ff00] text-lg font-semibold",children:"What I do"}),s.jsx("p",{className:"text-[#04ff00]/80 mt-2",children:"I specialize in frontend development, UI/UX design, and fullstack integration — blending code with creativity."}),s.jsxs("div",{className:`flex text-[#04ff00] mt-4 bg-black/15 px-2 rounded border border-[#04ff00] \r
                 justify-between items-start gap-4 h-6 py-1`,children:[s.jsx("div",{children:s.jsx("p",{className:"font-normal text-[10px] leading-tight",children:"Web Developer"})}),s.jsx("div",{className:"mb-4",children:s.jsx("p",{className:"font-normal text-[10px] leading-tight",children:"2024–present"})})]}),s.jsxs("div",{className:`flex text-[#04ff00] mt-4 bg-black/15 px-2 rounded border border-[#04ff00] \r
                 justify-between items-start gap-4 h-6 py-1`,children:[s.jsx("div",{children:s.jsx("p",{className:"font-normal text-[10px] leading-tight",children:"UI/UX Designer"})}),s.jsx("div",{className:"mb-4",children:s.jsx("p",{className:"font-normal text-[10px] leading-tight",children:"2024–present"})})]}),s.jsxs("div",{className:`flex text-[#04ff00] mt-4 bg-black/15 px-2 rounded border border-[#04ff00] \r
@@ -61,7 +60,7 @@ Error generating stack: `+i.message+`
        rounded-[70%/40%_40%_30%_30%] backdrop-blur-lg max-w-[80vw] mx-auto lg:max-w-[30vw]\r
        border-4 border-[#04ff00] p-1 relative overflow-hidden`,children:[s.jsx("h1",{className:"about text-[#04ff00] font-semibold text-[24px] mb-2",children:"Skills"}),s.jsx("p",{className:"text-[#04ff00] font-normal mt-[-.5rem] text-sm mb-2",children:"The tools I use to make the idea REAL!"})]}),s.jsxs("div",{className:`skillsCard \r
         s24Ultra1:mt-[4rem]\r
-        mt-[1rem]\r
+        mt-[.5rem]\r
         grid grid-cols-2 \r
         s24Ultra1:grid-cols-1\r
         gap-4 max-h-[80vh] max-w-[65rem] mx-auto p-6 rounded-lg overflow-y-auto`,children:[s.jsxs("div",{className:`w-full bg-white/15 rounded border-4 border-[#04ff00] backdrop-blur-md py-2 px-4 text-[#04ff00]\r
