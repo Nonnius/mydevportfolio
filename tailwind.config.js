@@ -14,6 +14,7 @@ export default {
         '2xl': '1536px',
         's24Ultra1': {raw: '(min-width: 375px) and (orientation: portrait)'},
         's24Ultra2': {raw: '(min-width: 900px) and (orientation: landscape)'},
+        's24Ultra3': {raw: '(min-width: 1440px)'},
         'galaxyTab1': {raw: '(min-width 712px) and (orientation: portrait)'},
         'galaxyTab2': {raw: '(min-width 1138px) and (orientation: landscape)'},
         'landscape': {raw: '(orientation: landscape)' },

@@ -43,7 +43,7 @@ const Portfolio = () => {
             <h1 className="about text-[#04ff00] font-semibold text-[24px] mb-2">
                 My Portfolio
             </h1>
-            <p className="text-[#04ff00] font-normal mt-[-1rem] text-sm">
+            <p className="text-[#04ff00] font-normal mt-[-1rem] text-sm mb-2">
                 View my collection of my most recent work and projects.
             </p>
         </div>

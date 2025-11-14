@@ -16,16 +16,18 @@ const About = () => {
             <h1 className="about text-[#04ff00] font-semibold text-[24px] mb-2">
                 About Me
             </h1>
-            <p className="text-[#04ff00] font-normal mt-[-1rem] text-sm">
+            <p className="text-[#04ff00] font-normal mt-[-1rem] text-sm mb-2">
                 Get to know more about my background and experience
             </p>
         </div>
 
-        <div className="aboutCard
+        <div className="aboutCard mt-[8rem]
         grid grid-cols-2 
         s24Ultra1:grid-cols-1
-        s24Ultra1:mt-[4rem]
-        mt-[-.8rem]
+        s24Ultra1:mt-[6rem]
+        s24Ultra1:gap-[6rem]
+        s24Ultra2:mt-[1rem]
+        !s24Ultra3:mt-[6rem]
         gap-6 min-h-[65px] mx-auto max-w-6xl p-6 rounded-lg">
             <div className="waI w-full bg-white/15 rounded border-4 border-[#04ff00] backdrop-blur-md">
                 <p className="text-[#04ff00] text-lg font-semibold py-2 px-4">Who am I</p>

@@ -32,12 +32,13 @@ const Contact = () => {
   {/*Page Title section*/}
        <div className="pgTitle text-center bg-gradient-to-l from-black to-[#046502]
         rounded-[70%/40%_40%_30%_30%] backdrop-blur-lg max-w-[80vw] mx-auto lg:max-w-[30vw]
-        border-4 border-[#04ff00] p-1 relative overflow-hidden mt-[5rem]">
+        border-4 border-[#04ff00] p-1 relative overflow-hidden mt-[1rem] mb-[2rem]
+        s24Ultra1:mt-[3rem]">
     
-            <h1 className="about text-[#04ff00] font-semibold text-4xl mb-2">
+            <h1 className="about text-[#04ff00] font-semibold text-[24px] mb-3">
                 Get in touch!
             </h1>
-            <p className="text-[#04ff00] font-normal mt-[-1rem] text-sm">
+            <p className="text-[#04ff00] font-normal mt-[-1rem] text-sm mb-2">
                 Let's make your idea reality or set up an interview!
             </p>
         </div>
@@ -46,8 +47,9 @@ const Contact = () => {
   <form
     ref={form}
     onSubmit={sendEmail}
-    className='formAll w-full max-w-xl bg-white/15 bg-opacity-80 border-4 border-[#04ff00] backdrop-blur-md rounded-lg shadow-lg p-4 sm:p-6 space-y-4'
-  >
+    className='formAll w-full mt-[6rem] max-w-xl bg-white/15 bg-opacity-80 border-4 border-[#04ff00] backdrop-blur-md rounded-lg shadow-lg p-4 sm:p-6 space-y-4
+    s24Ultra2:mt-[1rem]
+  '>
     <div className="flex flex-col">
       <label className="text-sm font-semibold text-[#04ff00]">Name</label>
       <input

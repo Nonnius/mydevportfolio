@@ -1,84 +1,12 @@
-.desc{
-    font-size: 16px;
-}
-
-@media (min-width: 390px){
-    .eduTitle{
-        font-size: 28px;
-        height: 6rem;
-    }
-    .eduCard{
-        margin-top: 5rem!important;
-    }
-}
-
-@media (min-width: 412px){
-    .eduTitle{
-        width: 20rem!important;
-        height: 5rem;
-        font-size: 24px;
-    }
-    .eduCard{
-        margin-top: 8rem!important;
-    }
-}
-
-@media (min-width: 712px){
-    .eduTitle{
-        width: 24rem!important;
-        height: 5rem;
-        font-size: 24px;
-    }
-}
-
-@media (min-width: 768px){
-    .eduTitle{
-        margin-top: 5rem;
-    }
-    .eduCard{
-        margin-top: 10rem!important;
-    }
-}
-
-@media (min-width: 824px) and (orientation: landscape){
-    .eduTitle{
-        margin-top: -2rem;
-    }
-    .eduCard{
-        margin-top: 1rem!important;
-    }
-}
-
-@media (min-width: 915px){
-    .eduCard{
-        margin-top: 2rem!important;
-    }
-}
 
 @media (min-width: 1024px){
     .eduTitle{
         margin-top: 32px!important;
-        height: 6rem;
-    }
-    .eduCard{
-        margin-top: 8rem!important;
-    }
-}
-
-@media (min-width: 1138px){
-    .eduTitle{
-        font-size: 26px;
-        width: 24rem!important;
-        height: 5rem;
+       
     }
     .eduCard{
         margin-top: 6rem!important;
+        max-width: 60rem!important;
     }
 }
 
-@media (min-width: 1440px){
-    .eduTitle{
-        font-size: 32px;
-        height: 6rem;
-    }
-}

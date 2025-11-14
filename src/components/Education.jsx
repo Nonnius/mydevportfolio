@@ -32,19 +32,23 @@ const Education = () => {
         {/*Page Title section*/}
        <div className="pgTitle text-center bg-gradient-to-l from-black to-[#046502]
         rounded-[70%/40%_40%_30%_30%] backdrop-blur-lg max-w-[80vw] mx-auto lg:max-w-[30vw]
-        border-4 border-[#04ff00] p-1 relative overflow-hidden mt-[5rem]">
+        border-4 border-[#04ff00] p-1 relative overflow-hidden mt-[2rem]">
     
-            <h1 className="about text-[#04ff00] font-semibold text-4xl mb-2">
+            <h1 className="about text-[#04ff00] font-semibold text-[24px] mb-2">
                 Education Credentials
             </h1>
-            <p className="text-[#04ff00] font-normal mt-[-.5rem] text-sm">
+            <p className="text-[#04ff00] font-normal mt-[-.5rem] text-sm mb-2">
                 View my degree and certifications.
             </p>
         </div>
 
         {/*Education Cards start here*/}
-        <div className='eduCard py-4 mt-6 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 px-4 gap-6 rounded 
-        bg-white/15 mx-auto max-w-sm sm:max-w-md md:max-w-2xl lg:max-w-4xl overflow-hidden cursor-pointer'>
+        <div className='eduCard py-4 mt-6 grid grid-cols-2 gap-6
+        s24Ultra1:mt-[6rem]
+        s24Ultra1:grid-cols-1
+        s24Ultra1:gap-[6rem]
+        px-4 rounded 
+        bg-white/15 mx-auto max-w-[50rem] overflow-hidden cursor-pointer'>
 
             {/*Card #1*/}
             <div className='group relative overflow-hidden cursor-pointer'>

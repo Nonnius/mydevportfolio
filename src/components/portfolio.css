@@ -3,8 +3,12 @@
 }
 
 @media (min-width: 712px) and (orientation: portrait){
+    .pgTitle{
+        margin-top: 3rem!important;
+    }
     .portCard{        
-        margin-top: 2rem!important;
+        margin-top: 4rem!important;
+        gap: 5rem!important;
     }
     .allBtn{
         margin-top: 2rem;

@@ -23,7 +23,7 @@ const Skills = () => {
             <h1 className="about text-[#04ff00] font-semibold text-[24px] mb-2">
                 Skills
             </h1>
-            <p className="text-[#04ff00] font-normal mt-[-.5rem] text-sm">
+            <p className="text-[#04ff00] font-normal mt-[-.5rem] text-sm mb-2">
                 The tools I use to make the idea REAL!
             </p>
         </div>
