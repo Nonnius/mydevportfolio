@@ -7,7 +7,7 @@ const About = () => {
 
        {/*Page Title section*/}
        <div className="pgTitle text-center 
-       mt-[1rem]
+       mt-[.5rem]
        s21Ultra1:mt-[3rem]
        bg-gradient-to-l from-black to-[#046502]
        rounded-[70%/40%_40%_30%_30%] backdrop-blur-lg max-w-[80vw] mx-auto lg:max-w-[30vw]
