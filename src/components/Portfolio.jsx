@@ -49,7 +49,7 @@ const Portfolio = () => {
         </div>
 
         {/*Project Cards start here*/}     
-        <div className='portCard py-4 mt-6 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 px-4 gap-4 rounded 
+        <div className='portCard max-h-[80vh] overflow-y-auto py-4 mt-6 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 px-4 gap-4 rounded 
         bg-white/15 mx-auto max-w-sm sm:max-w-md md:max-w-2xl lg:max-w-4xl'>
         
           {/*Card #1*/}
