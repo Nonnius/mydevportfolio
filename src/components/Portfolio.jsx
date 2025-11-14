@@ -50,7 +50,8 @@ const Portfolio = () => {
 
         {/*Project Cards start here*/}     
         <div className='portCard max-h-[70vh] overflow-y-auto py-4 mt-6 grid grid-cols-2 max-w-[50rem]
-        
+        s24Ultra1:mt-[6rem]
+        s24Ultra1:grid-cols-1
         px-4 gap-4 rounded 
         bg-white/15 mx-auto'>
         
