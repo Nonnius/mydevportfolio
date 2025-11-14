@@ -31,7 +31,7 @@ const Skills = () => {
         {/*container #1*/}
         <div className="skillsCard 
         s24Ultra1:mt-[4rem]
-        mt-[1rem]
+        mt-[.5rem]
         grid grid-cols-2 
         s24Ultra1:grid-cols-1
         gap-4 max-h-[80vh] max-w-[65rem] mx-auto p-6 rounded-lg overflow-y-auto">
