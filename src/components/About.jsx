@@ -21,11 +21,11 @@ const About = () => {
             </p>
         </div>
 
-        <div className="aboutCard mt-[8rem]
+        <div className="aboutCard mt-[1rem]
         grid grid-cols-2 
         s24Ultra1:grid-cols-1
-        s24Ultra1:mt-[6rem]
-        s24Ultra1:gap-[6rem]
+        s24Ultra1:mt-[4rem]
+        s24Ultra1:gap-[4rem]
         s24Ultra2:mt-[1rem]        
         gap-6 min-h-[65px] mx-auto max-w-6xl p-6 rounded-lg">
             <div className="waI w-full bg-white/15 rounded border-4 border-[#04ff00] backdrop-blur-md">
