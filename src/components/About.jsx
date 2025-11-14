@@ -21,12 +21,11 @@ const About = () => {
             </p>
         </div>
 
-        <div className="aboutCard mt-[1rem]
+        <div className="aboutCard mt-[.5rem]
         grid grid-cols-2 
         s24Ultra1:grid-cols-1
-        s24Ultra1:mt-[4rem]
-        s24Ultra1:gap-[4rem]
-        s24Ultra2:mt-[1rem]        
+        s24Ultra1:mt-[2rem]
+        s24Ultra1:gap-[4rem]        
         gap-6 min-h-[65px] mx-auto max-w-6xl p-6 rounded-lg">
             <div className="waI w-full bg-white/15 rounded border-4 border-[#04ff00] backdrop-blur-md">
                 <p className="text-[#04ff00] text-lg font-semibold py-2 px-4">Who am I</p>
