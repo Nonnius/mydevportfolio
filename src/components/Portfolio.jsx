@@ -49,7 +49,7 @@ const Portfolio = () => {
         </div>
 
         {/*Project Cards start here*/}     
-        <div className='portCard max-h-[60vh] overflow-y-auto py-4 mt-6 grid grid-cols-2 max-w-[50rem]
+        <div className='portCard max-h-[80vh] overflow-y-auto py-4 mt-6 grid grid-cols-2 max-w-[50rem]
         
         px-4 gap-4 rounded 
         bg-white/15 mx-auto'>
@@ -124,16 +124,17 @@ const Portfolio = () => {
               </div>
             )}
           </div>
+            {/*All Projects Button*/}
+          <div className="col-span-full mx-auto justify-center mt-1.5">
+            <a href='https://project-gallery-blush.vercel.app'>
+              <button className="allBtn px-5 py-3 rounded bg-gradient-to-l from-black to-[#046502] 
+              text-[#04ff00] hover:opacity-90 border border-[#04ff00] cursor-pointer">
+                See all Projects
+              </button>
+            </a>
+          </div>  
         </div> 
-        {/*All Projects Button*/}
-        <div className="flex justify-center mt-6">
-          <a href='https://project-gallery-blush.vercel.app'>
-            <button className="allBtn px-5 py-3 rounded bg-gradient-to-l from-black to-[#046502] 
-            text-[#04ff00] hover:opacity-90 border border-[#04ff00] cursor-pointer">
-              See all Projects
-            </button>
-          </a>
-        </div>  
+        
     </div>
   )
 }
