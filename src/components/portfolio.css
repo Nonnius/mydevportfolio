@@ -2,31 +2,9 @@
     font-size: 18px;
 }
 
-@media (min-width: 390px){
-    .portTitle{
-        margin-top: 2rem;
-        height: 7rem!important;
-        font-size: 28px;
-    }
-    .portCard{
-        margin-top: 4rem!important;
-    }
-    .allBtn{
-        margin-top: 3rem;
-    }
-}
 
-@media (min-width: 412px){
-    .portTitle{
-        margin-top: 2rem;       
-    }
-    .portCard{
-        margin-top: 4rem!important;
-    }
-    .allBtn{
-        margin-top: 3rem;
-    }
-}
+
+
 
 @media (min-width: 712px){
     .portTitle{
@@ -36,38 +14,11 @@
     }
 }
 
-@media (min-width: 768px){
-    .portTitle{
-        width: 32rem!important;
-        height: 8rem!important;
-    }
-    .portCard{
-        margin-top: 10rem!important;
-    }
-   
-}
 
-@media (min-width: 824px) and (orientation: landscape){
-    .portTitle{
-        font-size: 26px!important;
-        margin-top: -4.5rem;
-        height: 5.8rem!important;
-    }
-    .portCard{
-        margin-top: 1rem!important;
-    }
-    .allBtn{
-        margin-top: -1rem;
-    }
-}
 
-@media (min-width: 915px){
-    .portTitle{
-        margin-top: -4rem;
-        width: 40vw;
-        height: 5.8rem!important;
-    }
-}
+
+
+
 
 @media (min-width: 1024px){
     .portTitle{

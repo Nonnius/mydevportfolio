@@ -36,11 +36,11 @@ const Portfolio = () => {
     <div className="absolute inset-0 bg-[url('./assets/limebg.jpg')] h-screen bg-no-repeat bg-cover">
       
       {/*Page Title section*/}
-       <div className="pgTitle text-center bg-gradient-to-l from-black to-[#046502]
+       <div className="pgTitle mt-[.8rem] text-center bg-gradient-to-l from-black to-[#046502]
         rounded-[70%/40%_40%_30%_30%] backdrop-blur-lg max-w-[80vw] mx-auto lg:max-w-[30vw]
-        border-4 border-[#04ff00] p-1 relative overflow-hidden mt-[5rem]">
+        border-4 border-[#04ff00] p-1 relative overflow-hidden">
     
-            <h1 className="about text-[#04ff00] font-semibold text-4xl mb-2">
+            <h1 className="about text-[#04ff00] font-semibold text-[24px] mb-2">
                 My Portfolio
             </h1>
             <p className="text-[#04ff00] font-normal mt-[-1rem] text-sm">

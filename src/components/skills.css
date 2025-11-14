@@ -7,3 +7,22 @@
 }
 
 
+@media (min-width: 712px) and (orientation: portrait){
+    .pgTitle{
+        margin-top: 8rem!important;
+    }
+    .skillsCard{
+        grid-template-columns: repeat(2, 1fr)!important;
+        margin-top: 5rem!important;
+    }
+}
+
+@media (min-width: 1024px) and (orientation: landscape){
+    .pgTitle{
+        margin-top: 6rem!important;
+    }
+    .skillsCard{
+        grid-template-columns: repeat(2, 1fr)!important;
+        margin-top: 5rem!important;
+    }
+}
